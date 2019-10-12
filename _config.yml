@@ -16,6 +16,7 @@ plugins:
 
 # Includes MathJax site Defaults
 mathjax:
+  version: "2.7.5"
   config: "MMLorHTML.js"
 
   jax:

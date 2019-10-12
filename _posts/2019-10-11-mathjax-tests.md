@@ -21,12 +21,9 @@ $E = mc^2$
 Test multi-line MathJax
 
 
-<span>
-
 $$
 \sum_{i=1}^n \frac{i}{n}
 $$
-</span>
 
 
 ```
