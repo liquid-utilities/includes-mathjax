@@ -22,7 +22,7 @@
 
   {% if page.mathjax %}
 
-    {% assign assign mathjax__version = '2.7.5' %}
+    {% capture mathjax__version %}2.7.5{% endcapture %}
     {% if page.mathjax.version %}
       {% assign mathjax__version = page.mathjax.version %}
     {% elsif site.mathjax and site.mathjax.version %}
