@@ -224,6 +224,7 @@ Some but not all configurations have been made available from site `_config.yml`
 
 ```YAML
 mathjax:
+  version: "2.7.5"
   config: "MMLorHTML.js"
 
   jax:
