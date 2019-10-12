@@ -1,0 +1,49 @@
+# Site settings
+title: Liquid Includes MathJax
+description: >- # this means to ignore newlines until "baseurl:"
+  Liquid includes file enables JavaScript sourcing of MathJax on Jekyll built Pages
+url: 'https://liquid-utilities.github.io'
+author: S0AndS0
+
+
+# Build settings
+markdown: kramdown
+theme: minima
+show_excerpts: true
+plugins:
+  - jekyll-feed
+
+
+# Includes MathJax site Defaults
+mathjax:
+  config: "MMLorHTML.js"
+
+  jax:
+    - "input/TeX"
+    - "input/MathML"
+    - "output/HTML-CSS"
+    - "output/NativeMML"
+
+  extensions:
+    - "tex2jax.js"
+    - "mml2jax.js"
+    - "MathMenu.js"
+    - "MathZoom.js"
+
+  TeX:
+    extensions:
+      - "AMSmath.js"
+      - "AMSsymbols.js"
+      - "noErrors.js"
+      - "noUndefined.js"
+
+## Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

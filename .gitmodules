@@ -1,0 +1,4 @@
+[submodule "mathjax"]
+	path = _includes/modules/mathjax
+	url = https://github.com/liquid-utilities/mathjax.git
+	branch = master
