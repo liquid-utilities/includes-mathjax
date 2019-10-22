@@ -7,7 +7,7 @@
 Liquid includes file enables JavaScript sourcing of MathJax on Jekyll built Pages
 
 
-## [![Byte size of mathjax.html][badge__master__include_mathjax__source_code]][include_mathjax__master__source_code] [![Open Issues][badge__issues__include_mathjax]][issues__include_mathjax] [![Open Pull Requests][badge__pull_requests__include_mathjax]][pull_requests__include_mathjax] [![Latest commits][badge__commits__include_mathjax__master]][commits__include_mathjax__master] [![Includes MathJax Demos][badge__demo__include_mathjax]][demo__include_mathjax]
+## [![Byte size of includes-mathjax.html][badge__master__include_mathjax__source_code]][include_mathjax__master__source_code] [![Open Issues][badge__issues__include_mathjax]][issues__include_mathjax] [![Open Pull Requests][badge__pull_requests__include_mathjax]][pull_requests__include_mathjax] [![Latest commits][badge__commits__include_mathjax__master]][commits__include_mathjax__master] [![Includes MathJax Demos][badge__demo__include_mathjax]][demo__include_mathjax]
 
 
 
@@ -47,7 +47,7 @@ Liquid includes file enables JavaScript sourcing of MathJax on Jekyll built Page
 
 
 ```Bash
-_module_name='mathjax'
+_module_name='includes-mathjax'
 _module_https_url="https://github.com/liquid-utilities/${_module_name}.git"
 _module_relative_path="_includes/modules/${_module_name}"
 ```
@@ -107,7 +107,7 @@ Update/upgrade submodules via
   {%- include head.html -%}
 
   <body>
-    {%- include modules/mathjax/mathjax.html -%}
+    {%- include modules/includes-mathjax/includes-mathjax.html -%}
 
     {%- include header.html -%}
 
@@ -178,14 +178,14 @@ $$
 
 ```Bash
 git add .gitmodules
-git add _includes/mathjax
+git add _includes/modules/includes-mathjax
 
 
 ## Add any changed files too
 
 
 git commit -F- <<'EOF'
-:heavy_plus_sign: Adds `liquid-utilities/mathjax#1` submodule
+:heavy_plus_sign: Adds `liquid-utilities/includes-mathjax#1` submodule
 
 
 
@@ -196,7 +196,7 @@ git commit -F- <<'EOF'
 
 - `README.md`, updates installation and updating guidance
 
-- `_includes/mathjax`, injects JavaScript sourcing of MathJax
+- `_includes/modules/includes-mathjax`, injects JavaScript sourcing of MathJax
 EOF
 
 
@@ -300,20 +300,20 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
 [badge__commits__include_mathjax__master]:
-  https://img.shields.io/github/last-commit/liquid-utilities/mathjax/master.svg
+  https://img.shields.io/github/last-commit/liquid-utilities/includes-mathjax/master.svg
 
 [commits__include_mathjax__master]:
-  https://github.com/liquid-utilities/mathjax/commits/master
+  https://github.com/liquid-utilities/includes-mathjax/commits/master
   "&#x1F4DD; History of changes on this branch"
 
 
 [include_mathjax__community]:
-  https://github.com/liquid-utilities/mathjax/community
+  https://github.com/liquid-utilities/includes-mathjax/community
   "&#x1F331; Dedicated to functioning code"
 
 
 [include_mathjax__gh_pages]:
-  https://github.com/liquid-utilities/mathjax/tree/gh-pages
+  https://github.com/liquid-utilities/includes-mathjax/tree/gh-pages
   "Source code examples hosted thanks to GitHub Pages!"
 
 
@@ -327,24 +327,24 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
 [badge__issues__include_mathjax]:
-  https://img.shields.io/github/issues/liquid-utilities/mathjax.svg
+  https://img.shields.io/github/issues/liquid-utilities/includes-mathjax.svg
 
 [issues__include_mathjax]:
-  https://github.com/liquid-utilities/mathjax/issues
+  https://github.com/liquid-utilities/includes-mathjax/issues
   "&#x2622; Search for and _bump_ existing issues or open new issues for project maintainer to address."
 
 
 [badge__pull_requests__include_mathjax]:
-  https://img.shields.io/github/issues-pr/liquid-utilities/mathjax.svg
+  https://img.shields.io/github/issues-pr/liquid-utilities/includes-mathjax.svg
 
 [pull_requests__include_mathjax]:
-  https://github.com/liquid-utilities/mathjax/pulls
+  https://github.com/liquid-utilities/includes-mathjax/pulls
   "&#x1F3D7; Pull Request friendly, though please check the Community guidelines"
 
 
 [badge__master__include_mathjax__source_code]:
-  https://img.shields.io/github/size/liquid-utilities/mathjax/mathjax.html.svg?label=mathjax.html
+  https://img.shields.io/github/size/liquid-utilities/includes-mathjax/includes-mathjax.html.svg?label=includes-mathjax.html
 
 [include_mathjax__master__source_code]:
-  https://github.com/liquid-utilities/mathjax/blob/master/mathjax.html
+  https://github.com/liquid-utilities/includes-mathjax/blob/master/includes-mathjax.html
   "&#x2328; Project source, one Liquid file of actionable code!"
