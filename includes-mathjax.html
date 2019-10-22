@@ -127,12 +127,24 @@
         async
         src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/{{ mathjax__version }}/MathJax.js">
   MathJax.Hub.Config({
+    {% if mathjax__config_file__list %}
     config: [{{ mathjax__config_file__list }}],
+    {% endif %}
+
+    {% if mathjax__jax_configs__list %}
     jax: [{{ mathjax__jax_configs__list }}],
+    {% endif %}
+
+    {% if mathjax__extensions__list %}
     extensions: [{{ mathjax__extensions__list }}],
+    {% endif %}
+
+    {% if mathjax__tex__extensions__list %}
     TeX: {
       extensions: [{{ mathjax__tex__extensions__list }}]
     },
+    {% endif %}
+
     tex2jax: {
       inlineMath: [['$','$'], ['\\(','\\)']],
       processEscapes: true
