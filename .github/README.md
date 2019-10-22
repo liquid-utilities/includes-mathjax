@@ -319,10 +319,10 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
 [badge__demo__include_mathjax]:
-  https://img.shields.io/website/https/liquid-utilities.github.io/mathjax/index.html.svg?down_color=darkorange&down_message=Offline&label=Demo&logo=Demo%20Site&up_color=success&up_message=Online
+  https://img.shields.io/website/https/liquid-utilities.github.io/includes-mathjax/index.html.svg?down_color=darkorange&down_message=Offline&label=Demo&logo=Demo%20Site&up_color=success&up_message=Online
 
 [demo__include_mathjax]:
-  https://liquid-utilities.github.io/mathjax/index.html
+  https://liquid-utilities.github.io/includes-mathjax/index.html
   "&#x1F52C; Check the example collection tests"
 
 
